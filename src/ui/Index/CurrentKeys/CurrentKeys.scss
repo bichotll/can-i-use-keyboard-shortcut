@@ -1,0 +1,24 @@
+.current-keys{
+  margin: 50px 0;
+  .current-keys-pressed{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    height: 250px;
+
+    background-color: #ccc;
+
+    .key{
+      border-radius: 5px;
+      font-size: 30px;
+      color: #ccc;
+      background: white;
+      padding: 10px;
+      margin: 15px;
+      font-weight: bold;
+    }
+  }
+}

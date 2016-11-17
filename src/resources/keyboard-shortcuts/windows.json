@@ -1,0 +1,17 @@
+{
+  "platform": "windows",
+  "name": "Windows",
+  "link": "https://support.microsoft.com/en-us/kb/126449",
+  "shortcuts": [
+    {
+      "keys": ["control c"],
+      "description": "Copy to clipboard",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta"],
+      "description": "Open startup menu",
+      "moreInformation": ""
+    }
+  ]
+}

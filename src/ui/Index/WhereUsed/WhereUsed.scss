@@ -1,0 +1,13 @@
+.where-used{
+  margin: 50px 15%;
+  .use-list{
+    padding-top: 25px;
+    .use{
+      text-align: left;
+      .platform{
+        color: #ccc;
+        float: right;
+      }
+    }
+  }
+}

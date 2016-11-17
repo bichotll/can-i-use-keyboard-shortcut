@@ -1,0 +1,35 @@
+{
+  "name": "can-i-use-keyboard-shortcats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sagui build",
+    "develop": "sagui develop --port 3000",
+    "dist": "rm -Rf docs && cross-env NODE_ENV=production sagui build --optimize && mv dist docs",
+    "start": "npm run develop",
+    "test:coverage": "npm run test:unit -- --coverage",
+    "test:lint": "sagui lint",
+    "test:typecheck": "sagui typecheck",
+    "test:unit": "cross-env NODE_ENV=test sagui test",
+    "test:unit:watch": "npm run test:unit -- --watch"
+  },
+  "keywords": [
+    "can",
+    "i",
+    "use",
+    "keyboard",
+    "shortcuts"
+  ],
+  "author": "bichotll",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.4",
+    "jquery": "^3.1.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+  "devDependencies": {
+    "sagui": "^7.4.0"
+  }
+}

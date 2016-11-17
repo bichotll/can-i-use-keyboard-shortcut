@@ -1,0 +1,17 @@
+{
+  "platform": "mac",
+  "name": "Mac keyboard shortcuts",
+  "link": "https://support.apple.com/en-ie/HT201236",
+  "shortcuts": [
+    {
+      "keys": ["meta c"],
+      "description": "Copy to clipboard",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control c"],
+      "description": "Copy to clipboard (on terminal and other apps)",
+      "moreInformation": ""
+    }
+  ]
+}
