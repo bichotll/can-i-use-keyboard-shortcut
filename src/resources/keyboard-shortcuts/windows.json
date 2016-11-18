@@ -328,7 +328,7 @@
       "moreInformation": ""
     },
     {
-      "keys": ["shift*5"],
+      "keys": ["shift(*5)"],
       "description": "",
       "category": "Accessibility shortcuts",
       "moreInformation": ""
@@ -340,7 +340,7 @@
       "moreInformation": ""
     },
     {
-      "keys": ["shift*5s"],
+      "keys": ["shift(5s)"],
       "description": "Toggles ToggleKeys on and off",
       "category": "Accessibility shortcuts",
       "moreInformation": ""
