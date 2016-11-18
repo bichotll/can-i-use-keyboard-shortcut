@@ -15,7 +15,7 @@ export default React.createClass({
   getInitialState () {
     return {
       pressedKeys: [
-        'ctrl',
+        'control',
         'c'
       ]
     }
