@@ -12,8 +12,10 @@ const KeyPressed = function () {
   }
 
   this.setCurrentPressedKey = function (key) {
-    if (((new Date() - this.lastTimeStamp) / 1000) > 1) {
+    if (((new Date() - this.lastTimeStamp) / 1000) > 1 ||
+    this.currentPressedKeys.length > 5) {
       this.currentPressedKeys = []
+      this.lastTimeStamp = new Date()
     }
 
     this.lastTimeStamp = new Date()

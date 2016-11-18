@@ -4,13 +4,525 @@
   "link": "https://support.microsoft.com/en-us/kb/126449",
   "shortcuts": [
     {
+      "keys": ["f1"],
+      "description": "Help",
+      "category": "Windows system key combinations",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["ctrl esc"],
+      "description": "Open Start menu",
+      "category": "Windows system key combinations",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt tab"],
+      "description": "Switch between open programs",
+      "category": "Windows system key combinations",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt f4"],
+      "description": "Quit program",
+      "category": "Windows system key combinations",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["shift backspace"],
+      "description": "Delete item permanently",
+      "category": "Windows system key combinations",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta l"],
+      "description": "Lock the computer (without using CTRL+ALT+DELETE)",
+      "category": "Windows system key combinations",
+      "moreInformation": ""
+    },
+    {
       "keys": ["control c"],
-      "description": "Copy to clipboard",
+      "description": "Copy",
+      "category": "Windows program key combination",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control x"],
+      "description": "Cut",
+      "category": "Windows program key combination",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control v"],
+      "description": "Paste",
+      "category": "Windows program key combination",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control z"],
+      "description": "Undo",
+      "category": "Windows program key combination",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control b"],
+      "description": "Bold",
+      "category": "Windows program key combination",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control u"],
+      "description": "Underline",
+      "category": "Windows program key combination",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control i"],
+      "description": "Italic",
+      "category": "Windows program key combination",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["shift rightclick"],
+      "description": "Displays a shortcut menu containing alternative commands",
+      "category": "Mouse click/keyboard modifier combinations for shell objects",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["shift doubleclick"],
+      "description": "Runs the alternate default command (the second item on the menu)",
+      "category": "Mouse click/keyboard modifier combinations for shell objects",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt doubleclick"],
+      "description": "Displays properties",
+      "category": "Mouse click/keyboard modifier combinations for shell objects",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt backspace"],
+      "description": "Displays properties",
+      "category": "Mouse click/keyboard modifier combinations for shell objects",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["f1"],
+      "description": "Starts Windows Help",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["f10"],
+      "description": "Activates menu bar options",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["shift f10"],
+      "description": "Opens a shortcut menu for the selected item (this is the same as right-clicking an object",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control esc"],
+      "description": "Opens the Start menu (use the ARROW keys to select an item)",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control esc", "esc"],
+      "description": "Selects the Start button (press TAB to select the taskbar, or press SHIFT+F10 for a context menu)",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control shift esc"],
+      "description": "Opens Windows Task Manager",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt arrowdown"],
+      "description": "Opens a drop-down list box",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt tab"],
+      "description": "Switch to another running program (hold down the ALT key and then press the TAB key to view the task-switching window)",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["shift"],
+      "description": "Press and hold down the SHIFT key while you insert a CD-ROM to bypass the automatic-run feature",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt space"],
+      "description": "Displays the main window's System menu (from the System menu, you can restore, move, resize, minimize, maximize, or close the window)",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt -"],
+      "description": "Displays the Multiple Document Interface (MDI) child window's System menu (from the MDI child window's System menu, you can restore, move, resize, minimize, maximize, or close the child window)",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control tab"],
+      "description": "Switch to the next child window of a Multiple Document Interface (MDI) program",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt [any-letter]"],
+      "description": "Opens the menu",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt f4"],
+      "description": "Closes the current window",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control f4"],
+      "description": "Closes the current Multiple Document Interface (MDI) window",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt f6"],
+      "description": "Switch between multiple windows in the same program (for example, when the Notepad Find dialog box is displayed, ALT+F6 switches between the Find dialog box and the main Notepad window)",
+      "category": "General keyboard-only commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["f2"],
+      "description": "Rename object",
+      "category": "Shell objects and general folder/Windows Explorer shortcuts",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["f3"],
+      "description": "Find all files",
+      "category": "Shell objects and general folder/Windows Explorer shortcuts",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control x"],
+      "description": "Cut",
+      "category": "Shell objects and general folder/Windows Explorer shortcuts",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control c"],
+      "description": "Copy",
+      "category": "Shell objects and general folder/Windows Explorer shortcuts",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control v"],
+      "description": "Paste",
+      "category": "Shell objects and general folder/Windows Explorer shortcuts",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["shift backspace"],
+      "description": "Delete selection immediately, without moving the item to the Recycle Bin",
+      "category": "Shell objects and general folder/Windows Explorer shortcuts",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt enter"],
+      "description": "Open the properties for the selected object",
+      "category": "Shell objects and general folder/Windows Explorer shortcuts",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["f4"],
+      "description": "Selects the Go To A Different Folder box and moves down the entries in the box (if the toolbar is active in Windows Explorer)",
+      "category": "General folder/shortcut control",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["f5"],
+      "description": "Refreshes the current window.",
+      "category": "General folder/shortcut control",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["f6"],
+      "description": "Moves among panes in Windows Explorer",
+      "category": "General folder/shortcut control",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control g"],
+      "description": "Opens the Go To Folder tool (in Windows 95 Windows Explorer only)",
+      "category": "General folder/shortcut control",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control z"],
+      "description": "Undo the last command",
+      "category": "General folder/shortcut control",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control a"],
+      "description": "Select all the items in the current window",
+      "category": "General folder/shortcut control",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["backspace"],
+      "description": "Switch to the parent folder",
+      "category": "General folder/shortcut control",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["shift click [close-button]"],
+      "description": "For folders, close the current folder plus all parent folders",
+      "category": "General folder/shortcut control",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["*(from numeric keypad)"],
+      "description": "Expands everything under the current selection",
+      "category": "Windows Explorer tree control",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["+(from numeric keypad)"],
+      "description": "Expands the current selection",
+      "category": "Windows Explorer tree control",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["+(from numeric keypad)"],
+      "description": "Collapses the current selection.",
+      "category": "Windows Explorer tree control",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["arrowright"],
+      "description": "Expands the current selection if it is not expanded, otherwise goes to the first child",
+      "category": "Windows Explorer tree control",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["arrowleft"],
+      "description": "Collapses the current selection if it is expanded, otherwise goes to the parent",
+      "category": "Windows Explorer tree control",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control tab", "control shift"],
+      "description": "Move through the property tabs",
+      "category": "Properties control",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["shift*5"],
+      "description": "",
+      "category": "Accessibility shortcuts",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["arrowdown shift(down)"],
+      "description": "Toggles FilterKeys on and off",
+      "category": "Accessibility shortcuts",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["shift*5s"],
+      "description": "Toggles ToggleKeys on and off",
+      "category": "Accessibility shortcuts",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt shift(left) numlock"],
+      "description": "Toggles MouseKeys on and off",
+      "category": "Accessibility shortcuts",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt shift(left) printscreen"],
+      "description": "",
+      "category": "Accessibility shortcuts",
       "moreInformation": ""
     },
     {
       "keys": ["meta"],
-      "description": "Open startup menu",
+      "description": "Start menu",
+      "category": "Microsoft Natural Keyboard keys",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta r"],
+      "description": "Run dialog box",
+      "category": "Microsoft Natural Keyboard keys",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta m"],
+      "description": "Minimize all",
+      "category": "Microsoft Natural Keyboard keys",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["shift meta m"],
+      "description": "Undo minimize all",
+      "category": "Microsoft Natural Keyboard keys",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta f1"],
+      "description": "Help",
+      "category": "Microsoft Natural Keyboard keys",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta e"],
+      "description": "Windows Explorer",
+      "category": "Microsoft Natural Keyboard keys",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta f"],
+      "description": "Find files or folders",
+      "category": "Microsoft Natural Keyboard keys",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta d"],
+      "description": "Minimizes all open windows and displays the desktop",
+      "category": "Microsoft Natural Keyboard keys",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control meta f"],
+      "description": "Find computer",
+      "category": "Microsoft Natural Keyboard keys",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["control meta tab"],
+      "description": "Moves focus from Start, to the Quick Launch toolbar, to the system tray (use RIGHT ARROW or LEFT ARROW to move focus to items on the Quick Launch toolbar and the system tray)",
+      "category": "Microsoft Natural Keyboard keys",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta tab"],
+      "description": "Cycle through taskbar buttons",
+      "category": "Microsoft Natural Keyboard keys",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta break"],
+      "description": "System Properties dialog box",
+      "category": "Microsoft Natural Keyboard keys",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["application"],
+      "description": "Displays a shortcut menu for the selected item",
+      "category": "Microsoft Natural Keyboard keys",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta l"],
+      "description": "Log off Windows",
+      "category": "Microsoft Natural Keyboard with IntelliType software installed",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta p"],
+      "description": "Starts Print Manager",
+      "category": "Microsoft Natural Keyboard with IntelliType software installed",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta c"],
+      "description": "Opens Control Panel",
+      "category": "Microsoft Natural Keyboard with IntelliType software installed",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta v"],
+      "description": "Starts Clipboard",
+      "category": "Microsoft Natural Keyboard with IntelliType software installed",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta k"],
+      "description": "Opens Keyboard Properties dialog box",
+      "category": "Microsoft Natural Keyboard with IntelliType software installed",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta i"],
+      "description": "Opens Mouse Properties dialog box",
+      "category": "Microsoft Natural Keyboard with IntelliType software installed",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta a"],
+      "description": "Starts Accessibility Options (if installed)",
+      "category": "Microsoft Natural Keyboard with IntelliType software installed",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta spacebar"],
+      "description": "Displays the list of Microsoft IntelliType shortcut keys",
+      "category": "Microsoft Natural Keyboard with IntelliType software installed",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["meta s"],
+      "description": "Toggles CAPS LOCK on and off",
+      "category": "Microsoft Natural Keyboard with IntelliType software installed",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["tab"],
+      "description": "Move to the next control in the dialog box",
+      "category": "Dialog box keyboard commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["shift tab"],
+      "description": "Move to the previous control in the dialog box",
+      "category": "Dialog box keyboard commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["spacebar"],
+      "description": "If the current control is a button, this clicks the button. If the current control is a check box, this toggles the check box. If the current control is an option, this selects the option.",
+      "category": "Dialog box keyboard commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["enter"],
+      "description": "Equivalent to clicking the selected button (the button with the outline)",
+      "category": "Dialog box keyboard commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["esc"],
+      "description": "Equivalent to clicking the Cancel button",
+      "category": "Dialog box keyboard commands",
+      "moreInformation": ""
+    },
+    {
+      "keys": ["alt [any]"],
+      "description": "Move to the corresponding item",
+      "category": "Dialog box keyboard commands",
       "moreInformation": ""
     }
   ]
