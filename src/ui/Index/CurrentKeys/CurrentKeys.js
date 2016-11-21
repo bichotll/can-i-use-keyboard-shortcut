@@ -21,13 +21,13 @@ export default React.createClass({
     )
 
     return (<div className='current-keys'>
-      <h2>Current keys pressed</h2>
+
       <div className='current-keys-pressed'>
-        {keysNode}
-      </div>
-      <div className='text-muted'>
-        <strong>Make it work:</strong> You can either type combination (holding) <br />
-        or press the keys one after the other (so you don't fire a shortcut event).
+        <h1>Can I use...this keyboard shortcut?</h1>
+        <div className='pressed-keys'>
+          {keysNode}
+        </div>
+        <h5>(Press one key after another)</h5>
       </div>
       <br />
       <div onClick={this.handleClearCombination} className='btn btn-secondary'>CLEAR COMBINATION</div>

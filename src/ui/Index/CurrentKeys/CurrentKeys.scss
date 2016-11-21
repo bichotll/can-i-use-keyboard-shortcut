@@ -1,24 +1,41 @@
 .current-keys{
-  margin: 50px 0;
-  .current-keys-pressed{
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    margin: 25px;
-    padding: 25px;
-    border-radius: 25px;
-    height: 250px;
+  margin: 30px 0;
 
-    background-color: #ccc;
+  h1{
+    font-weight: 300;
+  }
+
+  h5{
+    color: white;
+    opacity: 0.5;
+    margin-top: 10px;
+  }
+
+  .current-keys-pressed{
+    margin: 25px;
+    padding: 20px;
+    border-radius: 15px;
+    height: 225px;
+
+    background-color: #DB5600;
+
+    .pressed-keys{
+      display: flex;
+      justify-content:center;
+      align-items:center;
+      height: 95px;
+    }
 
     .key{
       border-radius: 5px;
       font-size: 30px;
       color: #ccc;
-      background: white;
       padding: 10px;
       margin: 15px;
       font-weight: bold;
+
+      border: 1px solid white;
+      background: rgba(0,0,0,0.2);
     }
   }
 }

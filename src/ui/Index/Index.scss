@@ -1,4 +1,12 @@
-#app{
-  text-align: center;
-  padding: 0 10%;
+body{
+  background-color: #3d3527;
+  color: white;
+  *{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+
+  #app{
+    text-align: center;
+    padding: 0 10%;
+  }
 }
